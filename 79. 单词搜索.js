@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/word-search/
- * TODO
+ * TODO 算法未完成
  * @param {character[][]} board
  * @param {string} word
  * @return {boolean}

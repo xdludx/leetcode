@@ -1,4 +1,6 @@
 /**
+ * https://leetcode-cn.com/problems/generate-parentheses/
+ * TODO：可以使用深度优先遍历算法，待优化。
  * @param {number} n
  * @return {string[]}
  */
