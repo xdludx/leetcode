@@ -28,6 +28,11 @@ const permute1 = (nums) => {
     return result;
 };
 
+/**
+ * 解题思路为：循环nums，分别求nums[i]为第一个元素的时候排列，
+ * 即nums[i]加上permute2(nums without nums[i])中每一个元素，组成的结果
+ * @param {*} nums 
+ */
 const permute2 = (nums) => {
     if (!nums.length) return [];
     if (nums.length === 1) return [nums];
